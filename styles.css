@@ -1,0 +1,589 @@
+html{
+  width: 100%;
+  margin: 0;
+}
+body{
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+body, ul, li, a, p{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+h3{
+  text-align: center;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.main-nav{
+  background: #d7dff7;
+  padding: 30px;
+  position: sticky;
+  z-index: 1;
+  font-size: 0;
+  text-decoration: none;
+  color: blask;
+  border-bottom: solid;
+  border-width: thin;
+}
+.main-nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-nav li{
+  width: 20%;
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.main-nav li a{
+  text-decoration: none;
+}
+.main-nav li a:hover{
+  text-decoration: underline;
+}
+.main-nav li a:visited{
+  text-decoration: none;
+  color: black;
+}
+nav li a:link{
+  text-decoration: none;
+  color: black;
+}
+header{
+  padding: 20px 0;
+  margin: 40px auto;
+  max-width: 80%;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: lighter;
+  border: solid;
+  border-width: thin;
+}
+header div{
+  display: inline-block;
+  position: relative;
+}
+
+.right{
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  text-align: center;
+  left: 10%;
+  bottom: 26px;
+}
+.right p{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  display: inline-flex;
+  font-size: 20px;
+  text-align: center;
+}
+.contact-links{
+  display: block;
+  position: relative;
+  padding: 10px;
+  z-index: 1;
+  font-size: 0;
+  text-decoration: none;
+  color: blask;
+  left: 5%;
+}
+.contact-links ul{
+  text-align: left;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.contact-links li{
+  width: 20%;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  position: relative;
+  margin: 5px;
+}
+.contact-links li a{
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 5%;
+}
+.contact-links li a:hover{
+  text-decoration: underline;
+}
+.contact-links li a:visited{
+  text-decoration: none;
+  color: black;
+}
+.contact-links li p{
+  font-size: 20px;
+  line-height: 0;
+}
+.contact-links li img{
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.left{
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  text-align: center;
+  left: 5%;
+}
+.left h1{
+  font-size: 30px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: lighter;
+  display: inline-flex;
+  position: relative;
+}
+.left h2{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 0px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.profile-pic{
+  border-radius: 10%;
+  padding: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.education{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
+.education ul{
+  list-style-type: square;
+}
+.college{
+  margin: 20px;
+}
+.high-school{
+  margin: 20px;
+}
+
+.experience{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
+.experience ul{
+  list-style-type: square;
+}
+.staples{
+  margin: 20px;
+}
+.golf{
+  margin: 20px;
+}
+
+.activities{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
+.clubs{
+  text-align: center;
+}
+.clubs p{
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  width: 40%;
+}
+.skills{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
+.skills-box{
+  text-align: center;
+}
+.skills-box div{
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.skills-box p{
+  text-align: center;
+}
+.soft{
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  width: 30%;
+}
+.soft ul{
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+.soft ul li{
+  text-align: left;
+}
+
+.hard{
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+.hard ul{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.hard ul li{
+  text-align: left;
+}
+
+.projects{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
+.website{
+  margin: 20px;
+}
+.hackathon{
+  margin: 20px;
+}
+
+@media screen and (max-width:970px){
+  .contact-links{
+    left: 0;
+  }
+}
+
+@media screen and (max-width:930px){
+  
+  header div{
+    display: block;
+    text-align: center;
+  }
+  .left{
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+  }
+  .right p{
+    padding: 10px;
+  }
+  .right{
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+  }
+  .contact-links{
+    text-align: center;
+    width: 100%;
+  }
+  .contact-links ul{
+    width: 300px;
+  }
+}
+@media screen and (max-width:800px) {
+  .main-nav{
+    padding: 20px;
+  }
+  .main-nav li{
+    font-size: 22px;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .skills-box{
+    display: block;
+    position: relative;
+  }
+  .soft{
+    display: block;
+    width: 50%;
+    border: solid;
+    border-width: thin;
+  }
+  .hard{
+    display: block;
+    width: 50%;
+    border: solid;
+    border-width: thin;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main-nav li{
+    font-size: 18px;
+  }
+  .left h1{
+    font-size: 26px;
+  }
+  .left h2{
+    font-size: 22px;
+  }
+  .right p{
+    font-size: 18px;
+  }
+  .contact-links li a{
+    font-size: 18px;
+  }
+  .contact-links li p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .experience h3{
+    font-size: 18px;
+  }
+  .staples{
+    font-size: 16px;
+  }
+  .golf{
+    font-size: 16px;
+  }
+  .activities h3{
+    font-size: 18px;
+  }
+  .clubs{
+    font-size: 16px;
+  }
+  .skills h3{
+    font-size: 18px;
+  }
+  .soft{
+    font-size: 16px;
+  }
+  .soft ul{
+    text-align: left;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .hard{
+    font-size: 16px;
+  }
+
+  .education h3{
+    font-size: 18px;
+  }
+  .high-school{
+    font-size: 16px;
+  }
+  .college{
+    font-size: 16px;
+  }
+
+  .projects h3{
+    font-size: 18px;
+  }
+  .hackathon{
+    font-size: 14px;
+  }
+  .website{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main-nav li{
+    font-size: 16px;
+  }
+  .profile-pic{
+    width: 150px;
+  }
+  .left h1{
+    font-size: 24px;
+  }
+  .left h2{
+    font-size: 20px;
+  }
+  .right p{
+    font-size: 16px;
+  }
+  .contact-links li p{
+    font-size: 16px;
+  }
+  .contact-links li a{
+    font-size: 16px;
+  }
+
+  .education h3{
+    font-size: 16px;
+  }
+  .high-school{
+    font-size: 14px;
+  }
+  .college{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .main-nav li{
+    font-size: 14px;
+  }
+  .profile-pic{
+    width: 150px;
+  }
+  .left h1{
+    font-size: 22px;
+  }
+  .left h2{
+    font-size: 18px;
+  }
+  .right p{
+    font-size: 14px;
+  }
+  .contact-links li p{
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .contact-links li a{
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .contact-links li img{
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .experience h3{
+    font-size: 16px;
+  }
+  .staples{
+    font-size: 14px;
+  }
+  .golf{
+    font-size: 14px;
+  }
+  .activities h3{
+    font-size: 16px;
+  }
+  .clubs{
+    font-size: 14px;
+  }
+  .skills h3{
+    font-size: 16px;
+  }
+  .soft{
+    font-size: 14px;
+    border: none;
+  }
+  .hard{
+    font-size: 14px;
+    border: none;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .main-nav{
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .main-nav ul{
+    margin: 0 auto;
+    padding: 0;
+  }
+  .main-nav li{
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .profile-pic{
+    width: 150px;
+  }
+  .left h1{
+    font-size: 22px;
+  }
+  .left h2{
+    font-size: 18px;
+  }
+  .right p{
+    font-size: 14px;
+  }
+  .contact-links li p{
+    font-size: 14px;
+  }
+  .contact-links li a{
+    font-size: 14px;
+  }
+
+  .projects h3{
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  .hackathon{
+    font-size: 12px;
+  }
+  .website{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .contact-links ul{
+    right: 12%;
+  }
+  .education h3{
+    font-size: 14px;
+  }
+  .high-school{
+    font-size: 12px;
+  }
+  .college{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .soft{
+    position: relative;
+    right: 20px;
+  }
+}
