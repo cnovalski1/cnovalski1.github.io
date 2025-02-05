@@ -277,7 +277,24 @@ header div{
   max-width: 80%;
   border-width: thin;
 }
+.certifications{
+  margin: 40px auto;
+  padding: 40px 0;
+  border: solid;
+  position: relative;
+  max-width: 80%;
+  border-width: thin;
+}
 .website{
+  margin: 20px;
+}
+.certification_list{
+  margin: 20px;
+}
+.class_sorting{
+  margin: 20px;
+}
+.github_dashboard{
   margin: 20px;
 }
 .hackathon{
@@ -417,10 +434,22 @@ header div{
   .projects h3{
     font-size: 18px;
   }
+  .certifications h3{
+    font-size: 18px;
+  }
   .hackathon{
     font-size: 14px;
   }
   .website{
+    font-size: 14px;
+  }
+  .certification_list{
+    font-size: 14px;
+  }
+  .class_sorting{
+    font-size: 14px;
+  }
+  .github_dashboard{
     font-size: 14px;
   }
 }
@@ -562,10 +591,23 @@ header div{
     font-size: 14px;
     text-decoration: underline;
   }
+  .certifications h3{
+    font-size: 14px;
+    text-decoration: underline;
+  }
   .hackathon{
     font-size: 12px;
   }
   .website{
+    font-size: 12px;
+  }
+  .certification_list{
+    font-size: 12px;
+  }
+  .class_sorting{
+    font-size: 12px;
+  }
+  .github_dashboard{
     font-size: 12px;
   }
 }
